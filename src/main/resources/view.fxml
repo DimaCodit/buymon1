@@ -1,0 +1,19 @@
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TableColumn?>
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+    <children>
+        <StackPane fx:id="stackPane" alignment="BOTTOM_CENTER" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <TableView fx:id="table" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+                <columns>
+                    <TableColumn fx:id="titleColumn"/>
+                    <TableColumn fx:id="countColumn"/>
+                    <TableColumn fx:id="priceColumn"/>
+                    <TableColumn fx:id="discountColumn"/>
+                    <TableColumn fx:id="sumColumn"/>
+                </columns>
+            </TableView>
+        </StackPane>
+    </children>
+</AnchorPane>
